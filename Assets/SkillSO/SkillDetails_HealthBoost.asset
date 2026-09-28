@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d532f7be4b802e344b016d4f76e86fce, type: 3}
+  m_Name: SkillDetails_HealthBoost
+  m_EditorClassIdentifier: 
+  skillID: c3ffc42236004ac6960e8d0ad881e4aa
+  skillName: "\u751F\u547D\u5F3A\u5316"
+  skillDescription: "\u751F\u547D\u5F3A\u5316"
+  skillIcon: {fileID: 21300000, guid: 50951c01dd2085e4d91da9234017b155, type: 3}
+  maxLevel: 5
+  pointCost: 2
+  skillRequirementList:
+  - requiredSkill: {fileID: 11400000, guid: a5c62610d26d0e446bda28adb6ef13f8, type: 2}
+    requiredLevel: 5
